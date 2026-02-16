@@ -90,11 +90,12 @@ function parseAndStoreDoTInfo(hero) {
             const turns = turnNums.length > 0 ? turnNums[0] : 1;
 
             // 步骤5：遍历所有伤害值，逐个添加到结果
-            damageNums.forEach(damage => {
+            damageNums.forEach((damage, subIndex) => {
                 const totalBaseDamage = damage * turns; // 每回合伤害→总伤害
                 const coefficient = totalBaseDamage / hero.attack;
                 hero.dynamicDoTEffects.push({
                     index: index,
+                    subIndex: subIndex,
                     coefficient: coefficient,
                     turns: turns,
                     isPerTurn: true, // 共振为每回合伤害

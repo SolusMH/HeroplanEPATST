@@ -382,7 +382,7 @@ function updateDynamicDoTDisplay(hero, currentAttack) {
 
         const liElement = skillList.children[dotInfo.index];
         // 核心1：生成唯一ID，拼接subIndex（共振有subIndex，其他无）
-        const dynamicSpanId = `dot-value-${dotInfo.index}${dotInfo.subIndex ? '-' + dotInfo.subIndex : ''}`;
+        const dynamicSpanId = `dot-value-${dotInfo.index}` + (dotInfo.subIndex !== undefined ? `-${dotInfo.subIndex}` : '');
         // 核心2：计算单回合/总伤害（原有逻辑不变）
         const newDisplayDamage = dotInfo.isPerTurn
             ? Math.round((dotInfo.coefficient * currentAttack) / dotInfo.turns)
@@ -399,7 +399,7 @@ function updateDynamicDoTDisplay(hero, currentAttack) {
             liElement.innerHTML = liElement.innerHTML.replace(regex, () => {
                 // 共振的多匹配，按替换次数匹配subIndex
                 const finalId = dotInfo.type === 'resonance'
-                    ? `dot-value-${dotInfo.index}-${replaceCount}`
+                    ? `dot-value-${dotInfo.index}-${dotInfo.subIndex}`
                     : dynamicSpanId;
                 replaceCount++;
                 return `<span id="${finalId}" class="dynamic-value">${newDisplayDamage}</span>`;
