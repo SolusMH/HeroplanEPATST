@@ -197,6 +197,27 @@ const redeemcodes = [
             }
         ]
     },
+    {
+        "code": "EMPIREOFTHEHORSE",
+        "rewards": [
+            {
+                "img": "imgs/coins/s1.webp",
+                "num": 1
+            },
+            {
+                "img": "imgs/reedcode_reward/energy_pve_full.webp",
+                "num": 1
+            },
+            {
+                "img": "imgs/reedcode_reward/tornado.webp",
+                "num": 8
+            },
+            {
+                "img": "imgs/reedcode_reward/super_mana_potion.webp",
+                "num": 8
+            }
+        ]
+    },
 ];
 // --- 捐赠名单 ---
 const donationList = ["西那个瓜", "e2x8w7c2", "l8o0v2e3", "keke", "不吃芒果", "KC", "风扬云散", "蘑菇", "北鸣潇潇", "kimyu", "vabe"];

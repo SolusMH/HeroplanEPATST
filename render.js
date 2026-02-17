@@ -1218,7 +1218,7 @@ function renderDetailsInModal(hero, context = {}) {
     }
     const nameBlockHTML = `
         ${englishName ? `<p class="hero-english-name">${englishName}</p>` : ''}
-        <h1 class="hero-main-name skill-type-tag" data-filter-type="name" data-filter-value="${cleanedFilterValue || hero.name || englishName || mainHeroName.trim()}" title="${langDict.filterBy} '${mainHeroName.trim()}'">${mainHeroName}</h1>
+        <h1 class="hero-main-name skill-type-tag" data-filter-type="name" data-filter-value="${englishName || mainHeroName.trim() || cleanedFilterValue || hero.name}" title="${langDict.filterBy} '${mainHeroName.trim()}'">${mainHeroName}</h1>
         ${traditionalChineseName ? `<p class="hero-alt-name">${traditionalChineseName}</p>` : ''}
     `;
 
