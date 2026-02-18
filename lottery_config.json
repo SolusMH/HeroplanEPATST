@@ -454,12 +454,12 @@
                 "construct1"
             ],
             "featuredHeroes": [
-                "construct_arzen",
-                "mahayoddha_chitrangada",
-                "mahayoddha_devyani",
-                "fox_riverfang",
+                "vegetable_broseph",
                 "beauty_beast_laurent",
-                "construct_sizzleomatic"
+                "astral_demon_ibelis",
+                "beauty_beast_rose_de_flo",
+                "astral_demon_turundh",
+                "construct_halwinter"
             ],
             "advertisedHero": "fox_riverfang",
             "includedHeroes": [
@@ -575,9 +575,9 @@
         },
         "lottery_mercenary_war_default": {
             "featuredHeroes": [
-                "outlaw_zheng_tianshou",
+                "outlaw_xiang_chong",
                 "outlaw_wu_song",
-                "outlaw_lu_zhishen"
+                "outlaw_song_jiang"
             ],
             "AssociatedFamilies": [
                 "kingdom",
@@ -589,16 +589,16 @@
                 "requiredItemId": "lottery_3kw_limited_pool_summon_coin",
                 "requiredItemAmount": 100,
                 "heroes": [
-                  "kingdom_liu_bei_costume_nature",
-                  "journey_xie_zi_jing",
                   "kingdom_cao_cao_costume_ice",
-                  "kingdom_lu_bu_costume_tiger_lord",
-                  "journey_xiong_shanjun",
-                  "journey_erlang_shen",
-                  "kingdom_sun_quan_costume_fire_bat",
-                  "journey_nineheaded_beast",
+                  "kingdom_diaochan_costume_flowers",
+                  "kingdom_zhuge_liang_costume_crane",
                   "kingdom_zhang_fei_costume_bear_slayer",
-                  "journey_tang_sanzang"
+                  "kingdom_liu_bei_costume_nature",
+                  "kingdom_guan_yu_costume_dragon",
+                  "kingdom_sun_quan_costume_fire_bat",
+                  "kingdom_lu_bu_costume_tiger_lord",
+                  "journey_change",
+                  "journey_sha_wujing"
                 ]
             }
         },
@@ -1060,10 +1060,10 @@
                 "wildcat1"
             ],
             "featuredHeroes": [
-                "mahayoddha_ustad_anand",
-                "beowulf_hygd",
-                "beowulf_freawaru",
-                "goblin_soursting"
+                "astral_demon_salome",
+                "wild_cat_gitnib",
+                "garrison_rosalind",
+                "vegetable_bartholomew"
             ],
             "advertisedHero": "wild_cat_stravia",
             "includedHeroes": [
@@ -1147,8 +1147,8 @@
         },
         "lottery_temple_default": {
             "featuredHeroes": [
-                "mahayoddha_jyoti",
-                "mahayoddha_devyani"
+                "mahayoddha_meenakshi",
+                "mahayoddha_veer"
             ],
             "AssociatedFamilies": [
                 "mahayoddha"
