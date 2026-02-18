@@ -1249,6 +1249,7 @@ function updateDonateButton() {
  * 加载赞助脚本
  */
 function loadDonateScript() {
+    return;
     // 检查是否已存在赞助脚本
     if (document.querySelector('script[src*="overlay-widget.js"]')) {
         return;
