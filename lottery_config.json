@@ -341,10 +341,11 @@
             ]
         },
         "lottery_featured_alliance_quest_musketeers": {
+            "id": "AllianceQuestMusketeers",
             "featuredHeroes": [
-                "beauty_beast_laurent",
-                "musketeer_porthos_costume_merchant",
-                "beauty_beast_dominique"
+              "beauty_beast_cerissa",
+              "musketeer_dartagnan_costume_chimney_sweeper",
+              "musketeer_porthos_costume_merchant"
             ],
             "AssociatedFamilies": [
                 "beauty_beast",
@@ -410,6 +411,7 @@
             ]
         },
         "lottery_featured_event_farmland": {
+            "id": "RecurringFarmland",
             "featuredHeroes": [
                 "vegetable_indigon",
                 "vegetable_broseph",
