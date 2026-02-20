@@ -454,12 +454,12 @@
                 "construct1"
             ],
             "featuredHeroes": [
-                "vegetable_broseph",
-                "beauty_beast_laurent",
-                "astral_demon_ibelis",
-                "beauty_beast_rose_de_flo",
-                "astral_demon_turundh",
-                "construct_halwinter"
+                "construct_arzen",
+                "construct_zavok",
+                "construct_sizzleomatic",
+                "construct_halwinter",
+                "construct_glacivolt",
+                "construct_ironheart"
             ],
             "advertisedHero": "fox_riverfang",
             "includedHeroes": [
@@ -899,9 +899,9 @@
                 "institute"
             ],
             "featuredHeroes": [
+                "forsaken_cassilda",
                 "institute_zenas",
-                "institute_wilcox",
-                "institute_emilie"
+                "forsaken_inanis"
             ],
             "includedHeroes": [
                 "castle_bear_bearnadette",
