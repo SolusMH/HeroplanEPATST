@@ -341,7 +341,6 @@
             ]
         },
         "lottery_featured_alliance_quest_musketeers": {
-            "id": "AllianceQuestMusketeers",
             "featuredHeroes": [
               "beauty_beast_cerissa",
               "musketeer_dartagnan_costume_chimney_sweeper",
@@ -350,7 +349,8 @@
             "AssociatedFamilies": [
                 "beauty_beast",
                 "musketeer"
-            ]
+            ],
+            "Searchid": "AllianceQuestMusketeers"
         },
         "lottery_astralelves_default": {
             "featuredHeroes": [
@@ -411,7 +411,6 @@
             ]
         },
         "lottery_featured_event_farmland": {
-            "id": "RecurringFarmland",
             "featuredHeroes": [
                 "vegetable_indigon",
                 "vegetable_broseph",
@@ -419,7 +418,8 @@
             ],
             "AssociatedFamilies": [
                 "vegetable"
-            ]
+            ],
+            "Searchid": "RecurringFarmland"
         },
         "lottery_featured_event_opera": {
             "featuredHeroes": [
@@ -1063,8 +1063,8 @@
             ],
             "featuredHeroes": [
                 "astral_demon_salome",
-                "wild_cat_gitnib",
-                "garrison_rosalind",
+                "astral_demon_turundh",
+                "mahayoddha_jyoti",
                 "vegetable_bartholomew"
             ],
             "advertisedHero": "wild_cat_stravia",
