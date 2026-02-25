@@ -321,7 +321,7 @@
         },
         "MysteryHero": {
             "family": "mimic",
-            "ChancePerMil": "15"
+            "ChancePerMil": "0"
         },
         "LegendsSummonMysteryHero": {
             "family": "mystery",
@@ -412,9 +412,9 @@
         },
         "lottery_featured_event_farmland": {
             "featuredHeroes": [
-                "vegetable_indigon",
-                "vegetable_broseph",
-                "vegetable_elsbeth"
+              "vegetable_onwyn",
+              "vegetable_indigon",
+              "vegetable_broseph"
             ],
             "AssociatedFamilies": [
                 "vegetable"
@@ -1062,10 +1062,10 @@
                 "wildcat1"
             ],
             "featuredHeroes": [
-                "astral_demon_salome",
-                "astral_demon_turundh",
-                "mahayoddha_jyoti",
-                "vegetable_bartholomew"
+                "wild_cat_savann",
+                "wild_cat_vernix",
+                "mahayoddha_bonga",
+                "mahayoddha_devyani"
             ],
             "advertisedHero": "wild_cat_stravia",
             "includedHeroes": [
@@ -1197,8 +1197,8 @@
         },
         "lottery_titan_hunter_default": {
             "featuredHeroes": [
-                "titan_hunter_borgholf",
-                "titan_hunter_lumi_and_taiga"
+                "titan_hunter_brachynd",
+                "titan_hunter_borgholf"
             ],
             "includedHeroes": [
                 "faun_isidore",

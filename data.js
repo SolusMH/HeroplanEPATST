@@ -6,27 +6,27 @@ const purchaseCostumeDate = '2026-04-22';
 const soulExchange = {
     Date: '2026-02-26',
     ten: [
-        "ballerina_phantom_of_the_opera",
-        "bard_ogima",
-        "fire_god_eliane",
-        "castle_stag_lysanor",
-        "champions_nogu"
+        "ballerina_odile",
+        "s5_meresankh_costume_disco",
+        "shadow_abigail",
+        "tales1_thalassa_costume_crystals",
+        "s5_ahmose_costume_reborn"
     ],
     fifteen: [
-        "construct_carta",
-        "castle_stag_alvar",
-        "astral_sparklight",
-        "champions_satori",
-        "ballerina_daroga"
+        "fox_swiftpaw",
+        "fox_silverpaw",
+        "garrison_iocantha",
+        "gargoyle_pophit",
+        "faun_peregrine"
     ],
     twenty: [
-        "goblin_darkfeather",
-        "astral_lemonwood",
-        "castle_stag_daemon",
-        "s5_hetepheres_costume_spa",
-        "gargoyle_mena"
+        "slime_gooldron",
+        "beowulf_wealhtheow",
+        "tales1_domiventus_costume_supreme",
+        "beowulf_hrothgar",
+        "astral_dwarf_maegwyn"
     ],
-    show: false
+    show: true
 }
 
 const redeemcodes = [
